@@ -1,0 +1,27 @@
+{
+  "version": "5",
+  "dialect": "pg",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1712930941789,
+      "tag": "0000_redundant_thanos",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1713126408438,
+      "tag": "0001_worthless_vivisector",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1713128512828,
+      "tag": "0002_clumsy_adam_warlock",
+      "breakpoints": true
+    }
+  ]
+}

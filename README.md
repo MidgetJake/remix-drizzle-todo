@@ -1,36 +1,25 @@
-# Welcome to Remix + Vite!
+# Remix & Drizzle todo app
+Super duper basic todo app built using Remix, Drizzle, AuthJS, etc
 
-📖 See the [Remix docs](https://remix.run/docs) and the [Remix Vite docs](https://remix.run/docs/en/main/future/vite) for details on supported features.
 
-## Development
+Built as a fun little project to experiment with a few things I've been wanting to try out
 
-Run the Vite dev server:
+### Things experimented with:
+- Bun
+- Remix
+- Drizzle
+- Tailwind V4.0
+- AuthJS
 
-```shellscript
-npm run dev
+# Running it
+1. Gotta install everything with `bun install`
+
+2. Create a `.env` file with the following variables:
+```
+DATABASE_URL=postgresql://username:password@localhost:5432/database
+SESSION_SECRET=SuperDuperSecretForYourSession
 ```
 
-## Deployment
+3. Then just run `bun run dev`
 
-First, build your app for production:
-
-```sh
-npm run build
-```
-
-Then run the app in production mode:
-
-```sh
-npm start
-```
-
-Now you'll need to pick a host to deploy it to.
-
-### DIY
-
-If you're familiar with deploying Node applications, the built-in Remix app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-- `build/server`
-- `build/client`
+Nice and easy
